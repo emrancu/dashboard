@@ -1,0 +1,164 @@
+  <!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+ <title> Dashboard  </title> 
+ 
+<meta name="viewport" content="width=device-width">   
+
+ 
+ <link rel="icon"   href="assets/img/logo.png" />
+  
+ <script src="assets/js/jquery.min.js"></script> 
+ 
+
+ <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css" />
+ <link rel="stylesheet" href="assets/bs4/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="assets/css/animation.css"> 
+ <link rel="stylesheet" href="assets/css/style.css"> 
+ 
+  
+</head>
+
+<body>
+
+  <div id="body-Wraper">
+
+
+       <nav class="navbar navbar-expand-sm bg-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" /> DevTravelers <span><i class="fa fa-angle-double-right" ></i> </span></a>
+ 
+
+        <!-- Right Nav -->
+        <ul class="navbar-nav  " style="margin-left: auto;"> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#"   data-toggle="dropdown"> 
+              <i class="fa fa-commenting-o" ></i> <span class="badge badge-primary">4</span> 
+            </a>
+            <div class="dropdown-menu">
+              <div class="nHeader"> You have 0 messages</div>
+              
+              <!-- <a class="dropdown-item" href="#">Link 1</a>   -->
+
+              <div class="nFooter"><a class="nav-link" href="#">See All Messages</a></div>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#"   data-toggle="dropdown"> 
+              <i class="fa fa-bell"></i> <span class="badge badge-primary">4</span>
+            </a>
+            <div class="dropdown-menu">
+              <div class="nHeader">You have 0 messages</div>
+
+              <!-- <a class="dropdown-item" href="#">Link 1</a>   -->
+
+              <div class="nFooter"><a class="nav-link" href="#">See All Messages</a></div>
+
+            </div>
+          </li>
+ 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle userAvater" href="#" id="navbardrop" data-toggle="dropdown">
+              <img src="assets/img/defauluser.png" />
+              AL EMRAN
+            </a>
+            <div class="dropdown-menu">
+              <div class="header" >
+
+              <img src="assets/img/defauluser.png"> 
+              <p> AL EMRAN</p>
+
+              </div> 
+              <div class="footer" >
+
+             <div><a href=""  class="nav-link"> Profile </a></div>
+             <div><a href=""  class="nav-link"> Logout </a></div>
+
+              </div> 
+
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+ <div class="main-container">
+
+   <div class="sidenav">
+     <ul class="menu">
+
+    <li  >
+        <a href="{{url('/SuperAdmin')}}" class="ripple" >
+            <i class="fa fa-home" ></i> 
+            <span> Dashboard </span>        
+        </a>
+
+         </li> 
+  <li >
+        <a href="{{url('/SuperAdmin/UserRoute')}}"   class="ripple" >
+            <i class="fa fa-home" ></i> 
+            <span> User Permission</span>        
+        </a>
+
+    </li>  
+
+
+  <li >
+   <a class="ripple dropNav"  href="#">
+    <i class="fa fa-address-book-o" ></i> <span>User Manage <i class="fa fa-angle-down right"></i></span>
+   </a>
+     <ul class="dropdown-nav">
+        <li ><a href="{{url('SuperAdmin/CreateUser')}}"  > Create User     </a></li> 
+        <li ><a href="{{url('SuperAdmin/UserList')}}"  > Create List     </a></li>    
+    </ul>
+  </li> 
+
+   </ul>
+ 
+   </div>
+
+ <div class="main-content">
+
+
+dfsdzf
+
+ 
+   </div> 
+
+
+ </div> <!-- end main container -->
+
+
+
+
+<footer>
+  
+<span>  ©  Copyright 2019</span>
+
+<span class="right">
+   Developed By    <a href=""> AL EMRAN</a>
+</span>
+
+</footer>
+
+
+
+ </div>  <!-- end body wrapper -->
+
+<script src="assets/bs4/js/bootstrap.min.js"></script>   
+<script src="assets/js/index.js"></script>   
+ 
+
+ 
+
+</body>
+</html>
+  
+ 
